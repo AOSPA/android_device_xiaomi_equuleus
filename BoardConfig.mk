@@ -18,6 +18,9 @@ TARGET_OTA_ASSERT_DEVICE := equuleus
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Gesture
+TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event4"
+
 # Kernel
 KERNEL_DEFCONFIG := ../equuleus_defconfig
 
